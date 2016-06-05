@@ -1,0 +1,44 @@
+html,
+body {
+    background-color: black;
+    color: #444;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus {
+    color: white;
+}
+
+h1 {
+    margin: -1px auto;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 600px;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+#instructions {
+    width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#disqus_thread {
+    margin: 0 auto;
+    padding: 25px;
+    width: 600px;
+}
+
+#gameport {
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+}

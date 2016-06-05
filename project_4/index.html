@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>darkness</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body onload="load()">
+
+    <h1>darkness</h1>
+    <div id="gameport"></div>
+
+    <h1>Instructions</h1>
+    <div id="instructions">
+    <p style="text-align: center;">** This game requires the use of Chrome or Firefox **</p>
+    <ul>
+        <li>Control your player using WASD or arrow keys</li>
+        <li>He'll tell you what to do from there</li>
+    </ul>
+    </div>
+
+    <h1>Comments</h1>
+    <div id="disqus_thread"></div>
+    <script>
+    (function() {
+    var d = document, s = d.createElement('script');
+    s.src = 'http://nau-cs413.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+
+    <script src="../shared_assets/js/pixi.js" charset="utf-8"></script>
+    <script src="../shared_assets/js/pixi-audio.js" charset="utf-8"></script>
+    <script src="../shared_assets/js/pixi-particles/pixi-particles.js" charset="utf-8"></script>
+    <script src="../shared_assets/js/tileUtilities.js" charset="utf-8"></script>
+    <script src="../shared_assets/js/tweenjs.js" charset="utf-8"></script>
+    <script src="./assets/js/game.js" charset="utf-8"></script>
+
+  </body>
+</html>
